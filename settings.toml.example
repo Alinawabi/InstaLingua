@@ -1,0 +1,17 @@
+[ffmpeg]
+# Windows example
+path = "C:/ffmpeg/bin/ffmpeg.exe"
+# Linux/macOS example
+# path = "/usr/bin/ffmpeg"
+
+[openai]
+# Model settings
+model = "gpt-3.5-turbo"
+temperature = 0.3
+max_tokens = 2000
+
+[whisper]
+# Whisper model settings
+model_size = "base"  # Options: tiny, base, small, medium, large
+language = "en"
+fp16 = false  # Set to true if using GPU 
